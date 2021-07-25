@@ -1,0 +1,100 @@
+body {
+    font-family: cursive, sans-serif;
+    background-color: #fab79a;
+    font-size: 20px;
+    color: #5E7BA8;
+}
+
+h1 {
+    font-family: Verdana, sans-serif;
+}
+
+strong {
+    color: #731963;
+}
+
+em {
+    font-family: fantasy;
+    color: #81523f;
+}
+
+a {
+    font-family: fantasy;
+    color: #565656;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border-radius: 200px;
+}
+
+.section-index ul li {
+    margin-right: 20px;
+    list-style-type: lower-greek;
+}
+
+.section-me {
+    display: block;
+    padding: 350px;
+    background-color: #FFCDB8;
+}
+
+.section-me img {
+    position: absolute;
+    padding: 20px;
+    top: 250px;
+    left: 70px;
+    background-color: #FFACAB;
+}
+
+.introducing-me {
+    display: block;
+    width: 90%;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    padding: 10px;
+}
+
+.introducing-me h2 {
+    text-align: center;
+}
+
+.description-me {
+    position: absolute;
+    top: 230px;
+    left: 300px;
+    padding: 65px;
+    max-width: 50%;
+}
+
+.favourite-blogs {
+    position: absolute;
+    top: 550px;
+    left: 30px;
+    padding: 50px;
+}
+
+.text-big {
+    font-size: 25px;
+    line-height: 6px;
+}
+
+.text-medium {
+    font-size: 15px;
+    line-height: 4px;
+}
+
+.text-small {
+    font-size: 10px;    
+}
+
+.section-my-skills ul li:nth-child(odd) {
+    padding: 10px;
+    border: #FFCDB8 0.5px solid;
+    border-radius: 50px;
+}
